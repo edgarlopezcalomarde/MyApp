@@ -1,0 +1,24 @@
+@import
+'01_utilities/functions',
+'01_utilities/mixins',
+'01_utilities/variables';
+
+@import
+'02_base/reset';
+
+
+@import 
+'04_components/c-button',
+'04_components/c-card',
+'04_components/c-panel';
+
+@import
+'06_global/g--background',
+'06_global/g--colors',
+'06_global/g--border-color',
+'06_global/g--border-radius',
+'06_global/g--padding',
+'06_global/g--margin',
+'06_global/g--font-size';
+
+//sass .\src\web\scss\main.scss .\dist\web\css\main.css

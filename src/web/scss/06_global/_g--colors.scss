@@ -1,0 +1,9 @@
+@each $colortype, $colorsList in $colors {
+
+    @for $contador from 1 to length($colorsList){
+        $color:nth($colorsList, $contador);
+        .g--color-#{$colortype}-#{$contador}{
+            color: $color; 
+        }
+    }
+}

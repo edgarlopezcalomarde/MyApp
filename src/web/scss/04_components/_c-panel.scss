@@ -1,0 +1,31 @@
+.c-panel{
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    margin: 5px;
+
+
+    &__heading{
+        background-color: lightgray;
+    }
+
+    &--dangerous{
+        border: 1px solid rgb(255, 190, 190);
+    }
+
+    &__heading{
+        &--dangerous{
+            background-color: rgb(255, 190, 190);
+            color: brown;
+        }
+    }
+
+
+    @include  box-shadow(blue)
+}
+
+
+
+

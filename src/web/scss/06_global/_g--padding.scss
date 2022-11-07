@@ -1,0 +1,35 @@
+
+@for $number from 1 to length($padding){
+   
+    .g--padding-#{$number}{
+        padding: nth($padding, $number);
+    }
+
+    .g--padding-right-#{$number}{
+        padding-right: nth($padding, $number);
+    }
+
+    .g--padding-left-#{$number}{
+        padding-left: nth($padding, $number);
+    }
+
+    .g--padding-top-#{$number}{
+        padding-top: nth($padding, $number);
+    }
+
+    .g--padding-bottom-#{$number}{
+        padding-bottom: nth($padding, $number);
+    }
+
+    .g--padding-horizontal-#{$number}{
+        padding-left: nth($padding, $number);
+        padding-right: nth($padding, $number);
+    }
+
+    .g--padding-vertical-#{$number}{
+        padding-top: nth($padding, $number);
+        padding-bottom: nth($padding, $number);
+    }
+}
+
+

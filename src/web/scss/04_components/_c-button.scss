@@ -1,0 +1,31 @@
+.c-boton{
+    display: inline-block;
+    padding: 6px 12px;
+
+    font-size: 16px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    text-decoration: none;
+    outline: none !important;
+    opacity: 1;
+
+    color: white;
+    background-color: #0056b8;
+    //border: getBorderSize(80) solid #0056b8;
+
+   @include borderChanger(2px, solid, rgb(255, 0, 149))
+
+}
+
+
+.c-boton--secundario{
+    background-color: white;
+    color: #0056b8;
+}
+
+.c-boton--size-lg{
+    padding: 10px 20px;
+    font-size: 20px;
+
+}

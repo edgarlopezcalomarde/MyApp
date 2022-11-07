@@ -1,0 +1,32 @@
+@for $key from 1 to length($margins) {
+
+    .g--margin-#{$key}{
+        margin: nth($margins,$key);
+    }
+
+    .g--margin-top-#{$key}{
+        margin-top: nth($margins,$key);
+    }
+
+    .g--margin-left-#{$key}{
+        margin-left: nth($margins,$key);
+    }
+
+    .g--margin-right-#{$key}{
+        margin-right: nth($margins,$key);
+    }
+
+    .g--margin-bottom-#{$key}{
+        margin-bottom: nth($margins,$key);
+    }
+
+    .g--margin-vertical-#{$key}{
+        margin-top: nth($margins,$key);
+        margin-bottom: nth($margins,$key);
+    }
+
+    .g--margin-horizontal-#{$key}{
+        margin-left: nth($margins,$key);
+        margin-right: nth($margins,$key);
+    }
+}

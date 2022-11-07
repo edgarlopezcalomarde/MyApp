@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "eddy": "echo sos un crack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-scss": "sass ./src/web/scss/main.scss ./dist/web/css/main.css ",
+    "compile-ts": "tsc --outDir ./dist/web/js/ ./src/web/ts/index.ts",
+    "compile": "npm run compile-ts && npm run compile-scss",
+    "onchange":"onchange **/*.ts **/*.scss -- npm run compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^11.2.1",
+    "sass": "^1.55.0"
+  },
+  "devDependencies": {
+    "psd-cli": "^0.2.1"
+  }
+}
