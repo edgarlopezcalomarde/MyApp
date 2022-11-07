@@ -1,34 +1,36 @@
 
-@for $number from 1 to length($padding){
-   
-    .g--padding-#{$number}{
-        padding: nth($padding, $number);
+@for $i from 1 to length($padding){
+    $clave: $i - 1;
+    $valor: nth($padding, $i);
+
+    .g--padding-#{$clave}{
+        padding: $valor;
     }
 
-    .g--padding-right-#{$number}{
-        padding-right: nth($padding, $number);
+    .g--padding-right-#{$clave}{
+        padding-right: $valor;
     }
 
-    .g--padding-left-#{$number}{
-        padding-left: nth($padding, $number);
+    .g--padding-left-#{$clave}{
+        padding-left: $valor;
     }
 
-    .g--padding-top-#{$number}{
-        padding-top: nth($padding, $number);
+    .g--padding-top-#{$clave}{
+        padding-top: $valor;
     }
 
-    .g--padding-bottom-#{$number}{
-        padding-bottom: nth($padding, $number);
+    .g--padding-bottom-#{$clave}{
+        padding-bottom: $valor;
     }
 
-    .g--padding-horizontal-#{$number}{
-        padding-left: nth($padding, $number);
-        padding-right: nth($padding, $number);
+    .g--padding-horizontal-#{$clave}{
+        padding-left: $valor;
+        padding-right: $valor;
     }
 
-    .g--padding-vertical-#{$number}{
-        padding-top: nth($padding, $number);
-        padding-bottom: nth($padding, $number);
+    .g--padding-vertical-#{$clave}{
+        padding-top: $valor;
+        padding-bottom: $valor;
     }
 }
 

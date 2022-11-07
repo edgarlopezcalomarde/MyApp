@@ -1,5 +1,5 @@
 @for $i from 1 to length($border-radius){
-    .g--border-radius-#{$i}{
+    .g--border-radius-#{$i - 1}{
         border-radius: nth($border-radius,$i);
     }
 
