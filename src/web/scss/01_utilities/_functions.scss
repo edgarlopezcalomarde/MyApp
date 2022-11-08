@@ -28,4 +28,6 @@
     @return unquote(nth($profundidades, $profun));
 }
 
-
+@function getShadowKeys(){
+    @return length($profundidades)
+}
