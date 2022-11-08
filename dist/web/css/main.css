@@ -359,7 +359,10 @@ table {
 
 .c-boton {
   display: inline-block;
-  padding: 6px 12px;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 8px;
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
@@ -455,6 +458,10 @@ table {
   background-color: #BEDBFE;
 }
 
+.g--background-principal-8 {
+  background-color: #DCEBFE;
+}
+
 .g--background-alternativo-0 {
   background-color: #76350F;
 }
@@ -485,6 +492,10 @@ table {
 
 .g--background-alternativo-7 {
   background-color: #FDE68B;
+}
+
+.g--background-alternativo-8 {
+  background-color: #FEF3C8;
 }
 
 .g--background-gris-0 {
@@ -519,6 +530,10 @@ table {
   background-color: #E6E6E6;
 }
 
+.g--background-gris-8 {
+  background-color: #FFFFFF;
+}
+
 .g--background-blancos-0 {
   background-color: #EBEBEB;
 }
@@ -549,6 +564,10 @@ table {
 
 .g--background-blancos-7 {
   background-color: #FCFCFC;
+}
+
+.g--background-blancos-8 {
+  background-color: #FFFFFF;
 }
 
 .g--background-rojo-0 {
@@ -583,6 +602,10 @@ table {
   background-color: #FEC8C8;
 }
 
+.g--background-rojo-8 {
+  background-color: #FFFFFF;
+}
+
 .g--background-verde-0 {
   background-color: #064C39;
 }
@@ -613,6 +636,10 @@ table {
 
 .g--background-verde-7 {
   background-color: #A5F3CF;
+}
+
+.g--background-verde-8 {
+  background-color: #D1FAE5;
 }
 
 .g--background-azul-0 {
@@ -647,6 +674,14 @@ table {
   background-color: #BEDBFE;
 }
 
+.g--background-azul-8 {
+  background-color: #DCEBFE;
+}
+
+.g--background-negro-0 {
+  background-color: #000;
+}
+
 .g--background-amarillo-0 {
   background-color: #76350F;
 }
@@ -677,6 +712,10 @@ table {
 
 .g--background-amarillo-7 {
   background-color: #FDE68B;
+}
+
+.g--background-amarillo-8 {
+  background-color: #FEF3C8;
 }
 
 .g--color-principal-0 {
@@ -1869,6 +1908,36 @@ table {
 .g--padding-vertical-21 {
   padding-top: 480px;
   padding-bottom: 480px;
+}
+
+.g--padding-22 {
+  padding: 640px;
+}
+
+.g--padding-right-22 {
+  padding-right: 640px;
+}
+
+.g--padding-left-22 {
+  padding-left: 640px;
+}
+
+.g--padding-top-22 {
+  padding-top: 640px;
+}
+
+.g--padding-bottom-22 {
+  padding-bottom: 640px;
+}
+
+.g--padding-horizontal-22 {
+  padding-left: 640px;
+  padding-right: 640px;
+}
+
+.g--padding-vertical-22 {
+  padding-top: 640px;
+  padding-bottom: 640px;
 }
 
 .g--margin-0 {

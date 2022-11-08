@@ -3,13 +3,26 @@
 }
 
 @function getPadding($key) {
-    @return nth($padding, $key);
+    @return nth($padding, $key + 1);
 }
-   
+
+@function getPaddingKeys(){
+    @return length($padding);
+}
+
 @function getColorVariants($key) {
-    @return unquote(map-get($colores,""+$key));
+    @return length(map-get($colors,""+$key));
 }
    
 @function getColor($key,$index) {
-    @return unquote(nth(map-get($colores,""+$key),$index));
+    @return nth(map-get($colors,$key),$index + 1);
 }
+
+
+@function getColorKeys() {
+    @return map-keys($colors);
+}
+
+
+
+

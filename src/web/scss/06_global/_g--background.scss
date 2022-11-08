@@ -1,10 +1,9 @@
 
 
-@each $colortype, $colorsList in $colors {
-    @for $contador from 1 to length($colorsList){
-        $color:nth($colorsList,$contador);
-        .g--background-#{$colortype}-#{$contador - 1}{
-            background-color: $color; 
+@each $colortype in getColorKeys() {
+    @for $contador from 0 to getColorVariants($colortype){
+        .g--background-#{$colortype}-#{$contador}{
+            background-color: getColor($colortype, $contador); 
         }
     }
 }

@@ -1,7 +1,6 @@
 
-@for $i from 1 to length($padding){
-    $clave: $i - 1;
-    $valor: nth($padding, $i);
+@for $clave from 0 to getPaddingKeys(){
+    $valor: getPadding($clave);
 
     .g--padding-#{$clave}{
         padding: $valor;

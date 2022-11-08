@@ -1,6 +1,10 @@
 .c-boton{
     display: inline-block;
-    padding: getPadding(3) 12px;
+  
+    padding-left: getPadding(7);
+    padding-top: getPadding(3);
+    padding-right: getPadding(7);
+    padding-bottom: getPadding(3);
 
     font-size: 16px;
     border-radius: 4px;
